@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="Sergey Vodwood" property="Infrastructure Platform Architect" content="https://www.linkedin.com/in/vodwood">
+
+    <title>Example 6</title>
+    <meta name="description" content="Infrastructure Platform Architect">
+    <meta name="author" content="Sergey Vodwood">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Facebook OG Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Sergey Vodwood - Infrastructure Platform Architect">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:secure_url" content="">
+    
+    <link rel="canonical" href="">
+
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/touch.png">
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> <!-- browse the icons: https://fontawesome.com/icons?d=listing&m=free -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Selekkt/skelet@3.3.0/css/skelet.min.css">
+
+    <style>
+        :root { 
+            --fontSize: calc(100vw / 90); 
+            --hHeading: 5vw;
+            --siteMarg: 5rem;
+            --columnGap: 5rem;
+        }
+
+        a { border-bottom: 2px solid currentcolor; color: var(--color); text-decoration: none; }
+        #app { padding: 2rem var(--siteMarg); max-width: 1600px; margin: 0 auto; }
+        .h1 { font-size: var(--hHeading); letter-spacing: 0 }
+        .space1 { display: block; width: 100%; margin: 5vw auto;}
+
+        @media (max-width: 600px) { 
+            :root {
+                --fontSize: 1.3rem; 
+                --hHeading: 2.8rem;
+                --siteMarg: 2rem;
+            }
+        }
+    </style>
+
+</head>
+<body id="dark-mode">
+<div id="app">
+    <main>
+        <x-grid columns="2">
+            <x-col span="1"><b><a href="https://www.linkedin.com/in/vodwood">My LinkedIn.</a></b></x-col>
+            <x-col span="1"><b><a href="https://github.com/svodwood">My Github.</a></b></x-col>
+        </x-grid>
+
+        <span class="space1"></span>
+
+        <x-grid columns="3">
+            <x-col span="1-2" span-s="row">
+                <h6>
+                    Hi! My name is Sergey Vodwood. I am an infrastructure platform architect and an advocate for DevOps principles in software delivery. 
+                </h6>
+                <h6>
+                    I'm enthusiastic about aligning new technology and business strategy to empower and guide platform teams to create highly available, fault-tolerant and cost-optimized hybrid and public cloud platforms - working across groups, regions, cultures and mentalities.
+                </h6>
+                <h6>
+                    My current professional interests revolve around cloud security, cloud networking and container-based collaboration patterns in software delivery - implementing container orchestration platforms, reusable cloud infrastructure components and application delivery frameworks.
+                </h6>
+            </x-col>
+        </x-grid>
+
+        <span class="space1"></span>
+
+        <x-grid columns="2">
+            <x-col span="1" span-s="row">
+                <h2 class="h1">Publications</h2>
+                <p>A paste bin for guides, examples, walk-throughs and other things that I find curious:</p>
+                <p><a href="https://svodwood.github.io/devops-pastebin/">Yet Another DevOps Pastebin.</a></p>
+            </x-col>
+            <x-col span="2+1" span-s="row">
+                <h2 class="h1">Contact</h2>
+                <p>Drop me a line:</p>
+                <p><a href="mailto:sergeyv@duck.com">sergeyv@duck.com</a></p>
+            </x-col>
+        </x-grid>
+    </main>
+</div>
+
+</body>
+</html>
